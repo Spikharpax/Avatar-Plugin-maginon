@@ -1,0 +1,15 @@
+{
+  "modules" : { 
+    "maginon"  : {
+      "description": "Maginon SP-01 Plugin",
+      "version": "V1.0",
+      "IP":"X.X.X.X",
+      "User":"admin",
+      "Password":"admin",
+	  "rules" : {
+		"switchOn" 	: ["turn-on * (television|tv)","turn on * (television|tv)"],
+		"switchOff" 	: ["off * (television|tv)","~turn-off~ * (television|tv)","turn off * (television|tv)"]
+	  }
+    }
+  }
+}
