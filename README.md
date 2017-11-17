@@ -5,7 +5,7 @@ Ce plugin est un add-on pour le framework [Avatar](https://github.com/Spikharpax
 
 Il permet le contrôle de la prise wifi MAGINON smart Plug  SP-1E.
 
-![GitHub Logo](/logo/milight.jpg)
+![GitHub Logo](/logo/maginon.jpg)
 
 
 ## Installation
@@ -22,7 +22,7 @@ Ajoutez dans la propriété "ip", l'adresse IP de votre prise MAGINON.
 
 Exemple
 ```xml
-"ip": "192.168.0.10",
+"ip": "192.168.0.29",
 ```	
 
 ### login
